@@ -91,9 +91,34 @@ i {
     height: 100px;
 }
 /* FINE NEW */
+/* SECTION EXPLORE */
+.testo {
+    height: 100px;
+}
+
+.explore-item {
+    height: 150px;
+}
+/* FINE EXPLORE */
+/* SECTION PUBLICITY */
+.spam {
+    height: 200px;
+}
+
+.spam-text {
+    height: 200px;
+}
+/* FINE PUBLICITY */
 /* MEDIA */
 @media (min-width: 767px) {
     .console .items {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 576px){
+    .explore-text {
         display: flex;
         justify-content: center;
     }
@@ -145,4 +170,20 @@ i {
 
 .new-item {
     background-color: peru;
+}
+
+.testo {
+    background-color: tan;
+}
+
+.explore-item {
+    background-color: yellowgreen;
+}
+
+.spam {
+    background-color: gray;
+}
+
+.spam-text {
+    background-color: indigo;
 }
