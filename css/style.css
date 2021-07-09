@@ -127,6 +127,15 @@ i {
     height: 200px;
 }
 /* FINE NOW */
+/* SECTION SOCIAL */
+.social-text {
+    height: 100px;
+}
+
+.social-icon {
+    height: 100px;
+}
+/* FINE SOCIAL */
 /* MEDIA */
 @media (min-width: 767px) {
     .console .items {
@@ -220,4 +229,12 @@ i {
 
 .now-text {
     background-color: navy;
+}
+
+.social-text {
+    background-color: olivedrab;
+}
+
+.social-icon {
+    background-color: palegoldenrod;
 }
