@@ -118,6 +118,15 @@ i {
     height: 150px;
 }
 /* FINE STORE */
+/* SECTION NOW */
+.now {
+    height: 200px;
+}
+
+.now-text {
+    height: 200px;
+}
+/* FINE NOW */
 /* MEDIA */
 @media (min-width: 767px) {
     .console .items {
@@ -203,4 +212,12 @@ i {
 
 .store-item {
     background-color: magenta;
+}
+
+.now {
+    background-color: wheat;
+}
+
+.now-text {
+    background-color: navy;
 }
