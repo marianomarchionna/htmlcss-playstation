@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    font-family: Arial, sans-serif;
+}
+
+i {
+   color: black; 
+}
+/* FINE COMMON */
+/* HEADER */
+.header-top {
+    width: 100%;
+    height: 30px;
+}
+
+.header-top img {
+    height: 15px;
+}
+
+#accedi {
+    background-color: #363636;
+    color: white;
+    border-radius: 20px;
+}
+/* FINE HEADER */
+/* DEBUG */
