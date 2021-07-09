@@ -44,8 +44,12 @@ i {
 }
 /* FINE JUMBO */
 /* SECTION PORTFOLIO */
-.portfolio-item {
-    height: 200px;
+.portfolio-item img {
+    border-radius: 10px;
+}
+
+.portfolio-item img:hover {
+    border: 3px solid #1b81d3;
 }
 /* FINE PORTFOLIO */
 /* SECTION PUBLICITY */
@@ -74,7 +78,7 @@ i {
 /* SECTION BANNER */
 .banner {
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 .bannertext{
