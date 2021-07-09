@@ -59,6 +59,26 @@ i {
     height: 100px;
 }
 /* FINE PUBLICITY */
+/* SECTION CONSOLE */
+.console-text {
+    height: 200px;
+}
+
+.console-img {
+    height: 400px;
+}
+
+.console-item {
+    height: 70px;
+}
+/* FINE CONSOLE */
+/* MEDIA */
+@media (min-width: 767px) {
+    .console .items {
+        display: flex;
+        justify-content: center;
+    }
+}
 /* DEBUG */
 .debug .jumbo {
     background-color: blue;
@@ -78,4 +98,16 @@ i {
 
 .debug .publicity-text {
     background-color: chartreuse;
+}
+
+.debug .console-text {
+    background-color: blueviolet;
+}
+
+.debug .console-img {
+    background-color: brown;
+}
+
+.debug .console-item {
+    background-color: rosybrown;
 }
