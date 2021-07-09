@@ -109,6 +109,15 @@ i {
     height: 200px;
 }
 /* FINE PUBLICITY */
+/* SECTION STORE */
+.store-text {
+    height: 150px;
+}
+
+.store-item {
+    height: 150px;
+}
+/* FINE STORE */
 /* MEDIA */
 @media (min-width: 767px) {
     .console .items {
@@ -186,4 +195,12 @@ i {
 
 .spam-text {
     background-color: indigo;
+}
+
+.store-text {
+    background-color: maroon;
+}
+
+.store-item {
+    background-color: magenta;
 }
