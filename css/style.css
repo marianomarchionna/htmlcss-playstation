@@ -31,11 +31,16 @@ i {
 .jumbo {
     margin-top: 106px;
     width: 100%;
-    height: 500px;
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
 }
 
-.jumbotext{
-    height: 200px;
+.jumbo-title,
+.jumbo-text {
+    color: white;
 }
 /* FINE JUMBO */
 /* SECTION PORTFOLIO */
@@ -185,50 +190,50 @@ i {
     background-color: blueviolet;
 }
 
-.new-text {
+.debug .new-text {
     background-color: olive;
 }
 
-.new-item {
+.debug .new-item {
     background-color: peru;
 }
 
-.testo {
+.debug .testo {
     background-color: tan;
 }
 
-.explore-item {
+.debug .explore-item {
     background-color: yellowgreen;
 }
 
-.spam {
+.debug .spam {
     background-color: gray;
 }
 
-.spam-text {
+.debug .spam-text {
     background-color: indigo;
 }
 
-.store-text {
+.debug .store-text {
     background-color: maroon;
 }
 
-.store-item {
+.debug .store-item {
     background-color: magenta;
 }
 
-.now {
+.debug .now {
     background-color: wheat;
 }
 
-.now-text {
+.debug .now-text {
     background-color: navy;
 }
 
-.social-text {
+.debug .social-text {
     background-color: olivedrab;
 }
 
-.social-icon {
+.debug .social-icon {
     background-color: palegoldenrod;
 }
