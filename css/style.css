@@ -82,6 +82,15 @@ i {
     height: 200px;
 }
 /* FINE BANNER */
+/* SECTION NEW */
+.new-text {
+    height: 100px;
+}
+
+.new-item {
+    height: 100px;
+}
+/* FINE NEW */
 /* MEDIA */
 @media (min-width: 767px) {
     .console .items {
@@ -128,4 +137,12 @@ i {
 
 .debug .bannertext {
     background-color: blueviolet;
+}
+
+.new-text {
+    background-color: olive;
+}
+
+.new-item {
+    background-color: peru;
 }
