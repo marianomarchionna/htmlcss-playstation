@@ -28,6 +28,10 @@ i {
     color: white;
     border-radius: 20px;
 }
+
+.header-bottom {
+    background-color: white;
+}
 /* FINE HEADER */
 /* SECTION JUMBO */
 .jumbo {
@@ -40,6 +44,11 @@ i {
     height: 200px;
 }
 /* FINE JUMBO */
+/* SECTION PORTFOLIO */
+.portfolio-item {
+    height: 200px;
+}
+/* FINE PORTFOLIO */
 /* DEBUG */
 .debug .jumbo {
     background-color: blue;
@@ -47,4 +56,8 @@ i {
 
 .debug .jumbotext {
     background-color: blueviolet;
+}
+
+.debug .portfolio-item {
+    background-color: red;
 }
