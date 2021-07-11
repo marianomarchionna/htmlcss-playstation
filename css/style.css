@@ -93,10 +93,10 @@ i {
 .banner {
     width: 100%;
     height: 600px;
-}
-
-.bannertext{
-    height: 200px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
 }
 /* FINE BANNER */
 /* SECTION NEW */
