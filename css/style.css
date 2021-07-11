@@ -12,6 +12,10 @@ body {
 i {
    color: black; 
 }
+
+.gray {
+    color: #767676;
+}
 /* FINE COMMON */
 /* HEADER */
 .header-top {
@@ -63,22 +67,26 @@ i {
     font-weight: 700;
     margin: 0;
 }
-
-.second-title {
-    color: #767676;
-}
 /* FINE PUBLICITY */
 /* SECTION CONSOLE */
-.console-text {
-    height: 200px;
-}
-
-.console-img {
-    height: 400px;
+.console-img img {
+    width: 100%;
+    height: auto;
 }
 
 .console-item {
-    height: 70px;
+    opacity: 0.7;
+}
+
+.console-item img {
+    width: 80%;
+    height: auto;
+}
+
+.console .console-item:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #0977d0;
+    opacity: 1;
 }
 /* FINE CONSOLE */
 /* SECTION BANNER */
