@@ -28,6 +28,10 @@ i {
 .my-sup{ 
     font-size: 0.5em;
 }
+
+.w600 {
+    font-weight: 600;
+}
 /* FINE COMMON */
 /* HEADER */
 .header-top {
@@ -114,25 +118,22 @@ i {
 .new-item:hover {
     cursor: pointer;
 }
-
-.new-text span {
-    font-weight: 600;
-}
 /* FINE NEW */
-/* SECTION EXPLORE */
-.explore-text {
-    font-weight: 600;
-}
-/* FINE EXPLORE */
-/* SECTION PUBLICITY */
-.spam {
-    height: 200px;
+/* SECTION PLUS */
+.plus {
+    background-color: #bebcbb;
 }
 
-.spam-text {
-    height: 200px;
+.plus-img img {
+    object-fit: cover;
 }
-/* FINE PUBLICITY */
+
+.plus .btn {
+    background-color: #d9dadc;
+    color: #6288e3;
+    font-weight: bolder;
+}
+/* FINE PLUS */
 /* SECTION STORE */
 .store-text {
     height: 150px;
