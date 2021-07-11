@@ -114,14 +114,14 @@ i {
 .new-item:hover {
     cursor: pointer;
 }
+
+.new-text span {
+    font-weight: 600;
+}
 /* FINE NEW */
 /* SECTION EXPLORE */
-.testo {
-    height: 100px;
-}
-
-.explore-item {
-    height: 150px;
+.explore-text {
+    font-weight: 600;
 }
 /* FINE EXPLORE */
 /* SECTION PUBLICITY */
