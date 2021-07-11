@@ -16,6 +16,18 @@ i {
 .gray {
     color: #767676;
 }
+
+.darkgray {
+    background-color: #1f1f1f;
+}
+
+.white {
+    color: white;
+}
+
+.my-sup{ 
+    font-size: 0.5em;
+}
 /* FINE COMMON */
 /* HEADER */
 .header-top {
@@ -40,11 +52,6 @@ i {
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
-}
-
-.jumbo-title,
-.jumbo-text {
-    color: white;
 }
 /* FINE JUMBO */
 /* SECTION PORTFOLIO */
@@ -100,12 +107,12 @@ i {
 }
 /* FINE BANNER */
 /* SECTION NEW */
-.new-text {
-    height: 100px;
+.new-img img {
+    border-radius: 15px;
 }
 
-.new-item {
-    height: 100px;
+.new-item:hover {
+    cursor: pointer;
 }
 /* FINE NEW */
 /* SECTION EXPLORE */
