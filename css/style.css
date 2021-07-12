@@ -135,31 +135,10 @@ i {
 }
 /* FINE PLUS */
 /* SECTION STORE */
-.store-text {
-    height: 150px;
-}
-
-.store-item {
-    height: 150px;
-}
 /* FINE STORE */
 /* SECTION NOW */
-.now {
-    height: 200px;
-}
-
-.now-text {
-    height: 200px;
-}
 /* FINE NOW */
 /* SECTION SOCIAL */
-.social-text {
-    height: 100px;
-}
-
-.social-icon {
-    height: 100px;
-}
 /* FINE SOCIAL */
 /* MEDIA */
 @media (min-width: 767px) {
