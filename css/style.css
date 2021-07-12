@@ -134,9 +134,20 @@ i {
     font-weight: bolder;
 }
 /* FINE PLUS */
-/* SECTION STORE */
-/* FINE STORE */
 /* SECTION NOW */
+.now {
+    background-color: #161c3b;
+}
+
+.now-img img {
+    object-fit: cover;
+}
+
+.now .btn {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
 /* FINE NOW */
 /* SECTION SOCIAL */
 /* FINE SOCIAL */
