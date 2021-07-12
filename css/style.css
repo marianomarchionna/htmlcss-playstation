@@ -149,6 +149,23 @@ i {
     font-weight: bolder;
 }
 /* FINE NOW */
+/* FOOTER */
+footer {
+    background-color: #00439c;
+}
+
+.ps-footer img {
+    width: 70px;
+}
+
+.globe-img {
+    width: 20px;
+}
+
+.foot-bottom-img img {
+    width: 140px;
+}
+/* FINE FOOTER */
 /* MEDIA */
 @media (min-width: 767px) {
     .console .items {
