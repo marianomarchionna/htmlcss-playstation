@@ -32,6 +32,15 @@ i {
 .w600 {
     font-weight: 600;
 }
+
+.blue {
+    color: #1b81d3;
+    font-size: 50px;
+}
+
+.nav-item a:active {
+    color: #1b81d3;
+}
 /* FINE COMMON */
 /* HEADER */
 .header-top {
